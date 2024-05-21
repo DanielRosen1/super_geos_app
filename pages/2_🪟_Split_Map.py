@@ -4,8 +4,8 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Welcome to the super geo app!
+This application is designed to showcase the potential for multiple pages, each with different maps and functionalities. This template allows us to easily add our data and customize features in the future.
 """
 
 st.sidebar.title("About")

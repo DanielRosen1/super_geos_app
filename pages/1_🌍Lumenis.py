@@ -2,8 +2,8 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Welcome to the super geo app!
+This application is designed to showcase the potential for multiple pages, each with different maps and functionalities. This template allows us to easily add our data and customize features in the future.
 """
 
 st.sidebar.title("About")
@@ -12,7 +12,7 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 
-st.title("Interactive Map")
+st.title("Lumenis Super Geo's Interactive Map")
 
 col1, col2 = st.columns([4, 1])
 options = list(leafmap.basemaps.keys())

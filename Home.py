@@ -5,8 +5,8 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Welcome to the super geo app!
+This application is designed to showcase the potential for multiple pages, each with different maps and functionalities. This template allows us to easily add our data and customize features in the future.
 """
 
 st.sidebar.title("About")
@@ -15,21 +15,19 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Lumenis Super Geo's app")
 
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/opengeos/streamlit-map-template).
+    This multipage app template demonstrates various interactive web apps possibillities for using geospatial data. 
     """
 )
 
 st.header("Instructions")
 
 markdown = """
-1. For the [GitHub repository](https://github.com/opengeos/streamlit-map-template) or [use it as a template](https://github.com/opengeos/streamlit-map-template/generate) for your own project.
-2. Customize the sidebar by changing the sidebar text and logo in each Python files.
-3. Find your favorite emoji from https://emojipedia.org.
-4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., `1_🚀_Chart.py`.
+1. Click the icons on the left to select different pages.
+2. play with the widgets on the sidebar to interact with the map. 
 
 """
 
